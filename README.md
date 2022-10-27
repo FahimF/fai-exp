@@ -6,6 +6,12 @@ At present, there's only one Jupyter Notebook here, but I'm hoping to add to it 
 
 Here's a listing of what each notebook contains:
 
+* **diff_edit**: Attempts to get the [DiffEdit](https://arxiv.org/abs/2210.11427) paper implemented. WIP.
+
+* **guidance_variations**: Trying out various guidance value techniques discussed on the FastAI forums to compare and contrast each method to see which one works best (for a given value of "best").
+
+  ![guidance_values](assets/guidance_values.jpg)
+  
 * **prompt_editing**: This one has experiments into how to edit elements of an image created using Stable Diffusion by passing the seed used for the original image, the original prompt, and a new edited prompt which contains the changes you want to implement. This is still a WIP since the concept worked  on the first try, but I'm not sure if that's a fluke or not ... Needs more testing.
 
   | ![original](assets/bicycle-cat.jpg)                          | ![edited](assets/bicycle-dog.jpg)                            |
@@ -16,4 +22,6 @@ Here's a listing of what each notebook contains:
   | ![forest](assets/forest.jpg)                                 | ![forest-winter](assets/forest-winter.jpg)                   |
   | **Original:** "A fantasy forest, trending on artstation"     | **Edited:** "A fantasy forest in winter, trending on artstation" |
   
+  Heres's a bunch of tests where the same prompt (which is the first image in the grid), is edited in various ways to get secondary images which are fairly similar to the first:
   
+  ![prompt_edit_test](assets/prompt_edit_test.jpg)
