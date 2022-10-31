@@ -25,3 +25,7 @@ Here's a listing of what each notebook contains:
   Heres's a bunch of tests where the same prompt (which is the first image in the grid), is edited in various ways to get secondary images which are fairly similar to the first:
   
   ![prompt_edit_test](assets/prompt_edit_test.jpg)
+
+* **prompt_edit_image**: This is a variation on the prompt_edit example above which takes an image input and edits the image based on an input prompt. Sample output below:
+
+  ![prompt_edit_image](assets/prompt_edit_image.jpg)
