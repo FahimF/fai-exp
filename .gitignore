@@ -1,3 +1,6 @@
 .ipynb_checkpoints
 CompVis
 openai
+__pycache__
+audio
+cache

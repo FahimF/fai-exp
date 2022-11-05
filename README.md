@@ -2,8 +2,6 @@
 
 These are experiments created while participating in [Jeremy Howards](https://twitter.com/jeremyphoward)'s absolutely terrific "[Practical Deep Learning for Coders: Part 2](https://itee.uq.edu.au/event/2022/practical-deep-learning-coders-uq-fastai-part-2)" course.
 
-At present, there's only one Jupyter Notebook here, but I'm hoping to add to it as the course progresses.
-
 Here's a listing of what each notebook contains:
 
 * **diff_edit**: Attempts to get the [DiffEdit](https://arxiv.org/abs/2210.11427) paper implemented. WIP.
@@ -12,6 +10,8 @@ Here's a listing of what each notebook contains:
 
   ![guidance_values](assets/guidance_values.jpg)
   
+* **mubert_music:** Generating music using the Mubert API and a text prompt. Also explores converting an image to a text description using BLIP/CLIP and then using that description as the prompt to pass on to generate music so that you essentially have an image-to-music pipeline ...
+
 * **prompt_editing**: This one has experiments into how to edit elements of an image created using Stable Diffusion by passing the seed used for the original image, the original prompt, and a new edited prompt which contains the changes you want to implement. This is still a WIP since the concept worked  on the first try, but I'm not sure if that's a fluke or not ... Needs more testing.
 
   | ![original](assets/bicycle-cat.jpg)                          | ![edited](assets/bicycle-dog.jpg)                            |
