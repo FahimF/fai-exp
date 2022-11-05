@@ -6,6 +6,8 @@ Here's a listing of what each notebook contains:
 
 * **diff_edit**: Attempts to get the [DiffEdit](https://arxiv.org/abs/2210.11427) paper implemented. WIP.
 
+* **diffusers_music**: Explores using the Hugging Face [diffusers library](https://github.com/huggingface/diffusers) (specifically [DanceDiffusionPipeline](https://github.com/huggingface/diffusers/blob/main/src/diffusers/pipelines/dance_diffusion)) to generate music.
+
 * **guidance_variations**: Trying out various guidance value techniques discussed on the FastAI forums to compare and contrast each method to see which one works best (for a given value of "best").
 
   ![guidance_values](assets/guidance_values.jpg)
