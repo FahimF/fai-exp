@@ -4,17 +4,19 @@ These are experiments created while participating in [Jeremy Howards](https://tw
 
 Here's a listing of what each notebook contains:
 
-* **diff_edit**: Attempts to get the [DiffEdit](https://arxiv.org/abs/2210.11427) paper implemented. WIP.
+* [**article_summarizer**](article_summarizer.ipynb): Using the T5 model to summarize PDF articles from arXiv.
 
-* **diffusers_music**: Explores using the Hugging Face [diffusers library](https://github.com/huggingface/diffusers) (specifically [DanceDiffusionPipeline](https://github.com/huggingface/diffusers/blob/main/src/diffusers/pipelines/dance_diffusion)) to generate music.
+* [**diff_edit**](dff_edit.ipynb): Attempts to get the [DiffEdit](https://arxiv.org/abs/2210.11427) paper implemented. WIP.
 
-* **guidance_variations**: Trying out various guidance value techniques discussed on the FastAI forums to compare and contrast each method to see which one works best (for a given value of "best").
+* [**diffusers_music**](diffusers_music.ipynb): Explores using the Hugging Face [diffusers library](https://github.com/huggingface/diffusers) (specifically [DanceDiffusionPipeline](https://github.com/huggingface/diffusers/blob/main/src/diffusers/pipelines/dance_diffusion)) to generate music.
+
+* [**guidance_variations**](guidance_variations.ipynb): Trying out various guidance value techniques discussed on the FastAI forums to compare and contrast each method to see which one works best (for a given value of "best").
 
   ![guidance_values](assets/guidance_values.jpg)
   
-* **mubert_music:** Generating music using the Mubert API and a text prompt. Also explores converting an image to a text description using BLIP/CLIP and then using that description as the prompt to pass on to generate music so that you essentially have an image-to-music pipeline ...
+* [**mubert_music**](mubert_music.ipynb): Generating music using the Mubert API and a text prompt. Also explores converting an image to a text description using BLIP/CLIP and then using that description as the prompt to pass on to generate music so that you essentially have an image-to-music pipeline ...
 
-* **prompt_editing**: This one has experiments into how to edit elements of an image created using Stable Diffusion by passing the seed used for the original image, the original prompt, and a new edited prompt which contains the changes you want to implement. This is still a WIP since the concept worked  on the first try, but I'm not sure if that's a fluke or not ... Needs more testing.
+* [**prompt_editing**](prompt_editing.ipynb): This one has experiments into how to edit elements of an image created using Stable Diffusion by passing the seed used for the original image, the original prompt, and a new edited prompt which contains the changes you want to implement. This is still a WIP since the concept worked  on the first try, but I'm not sure if that's a fluke or not ... Needs more testing.
 
   | ![original](assets/bicycle-cat.jpg)                          | ![edited](assets/bicycle-dog.jpg)                            |
   | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -28,6 +30,6 @@ Here's a listing of what each notebook contains:
   
   ![prompt_edit_test](assets/prompt_edit_test.jpg)
 
-* **prompt_edit_image**: This is a variation on the prompt_edit example above which takes an image input and edits the image based on an input prompt. Sample output below:
+* [**prompt_edit_image**](prompt_edit_image.ipynb): This is a variation on the prompt_edit example above which takes an image input and edits the image based on an input prompt. Sample output below:
 
   ![prompt_edit_image](assets/prompt_edit_image.jpg)
